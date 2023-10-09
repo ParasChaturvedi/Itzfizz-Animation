@@ -101,12 +101,6 @@ html,body{
 }
 
 @media screen and (max-width: 692px){
-  html,body{
-    background-color: black;
-    color:#ffff;
-    -ms-overflow-style: none; 
-    scrollbar-width: none; 
-  }
   
   .fs{
    -webkit-font-smoothing: antialiased;
@@ -119,31 +113,11 @@ html,body{
     font-weight: bold;
     text-align: center;
   }
-  .textStroks-true {
-     color: transparent;
-     -webkit-text-stroke: 1px white;
-     transition: transform 0.8s ease-in-out;
-     text-shadow: none;
-  }
-  .textStroks-false {
-     color: white;
-     transition: transform 0.8s ease-in-out;
-     -webkit-text-stroke: 1px white;
-     text-shadow: none;
-  }
+  
   .mainDiv{
    position: fixed;
    z-index: 10;
-   /* margin:0 15vw;
-   width: 80vw;
-   height: 100vh; */
-  
-  
   }
-  /* .main-container{
-    -ms-overflow-style: none; 
-    scrollbar-width: none; 
-  } */
   .just-center{
     display: flex;
     flex-direction: column;
@@ -153,15 +127,6 @@ html,body{
   }
   
   
-  .container{
-      height: 60vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    
-  }
-  
   .rollImage{
     /* transform-style: preserve-3d; */
       transition: transform 0.5s ease-in-out;
@@ -169,17 +134,8 @@ html,body{
     height: 60vh;
     width: 100vw;
    
-    /* border: 2px solid red; */
-    /* background: url("https://c4.wallpaperflare.com/wallpaper/38/1014/441/watch-luxury-watches-wallpaper-preview.jpg"); */
-    /* background-color: red; */
-   
   }
   
-  
-  .bend{
-    transition: transform 0.5s ease-in-out;
-  
-  }
   
   .img0{
     background: url("https://c4.wallpaperflare.com/wallpaper/38/1014/441/watch-luxury-watches-wallpaper-preview.jpg"); 
